@@ -11,27 +11,58 @@ html{
 h2 {
     font-size: 2.4rem;
     color: #333;
-    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center ;
+    margin-top: 4rem;
 }
 
 .container{
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    min-width: 30rem;
+}
+
+.div_logo{
+    width: 70%;
+    height: 70%;
+    min-width: 40rem;
+}
+
+.div_label{
+    width: 95%;
+    padding: 2rem;
 
 }
-.logo {
+
+.label_name{
+    width: 3rem;
+
+}
+
+
+.btn_confi, .btn_sound, .btn_exit{
+    width: 5%;
+    min-width: 4rem;
+    border-radius: 2rem;
+    margin  : 5rem 1.5rem 1.5rem; 
+    text-decoration: none;
+}
+
+.img_logo {
+   width: 60%;
+   height: 80%;   
+
+}
+
+.img_confi, .img_sound, .img_exit{
     width: 100%;
 }
 
-.input-name {
-    width: 10%;
-    padding: 0.5rem;
-    font-size: 1.6rem;
-}
 
-.btn-container {
-    margin-top: 2rem;
-    width: 30%;
-}
 
