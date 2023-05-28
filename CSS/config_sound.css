@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00cc99;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container_sound{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    min-width: 35rem;
+}
+
+.header_sound{
+    display: flex;
+    margin-top: 2rem;
+    min-width: 35rem;
+    text-align: center;
+}
+
+.btn_return{
+    width: 15%;
+    min-width: 2rem;
+}
+
+.img_return{
+    width: 75%;
+}
+
+.title{
+    width: 100%;
+    background-color: rebeccapurple;
+}
+.div_general_sound{
+    width: 30%;
+    background-color: rgb(229, 14, 136);
+}
+.div_music_sound{
+    width: 20%;
+    background-color: blue;
+}
+.div_voice_sound{
+    width: 20%;
+    background-color: rgb(255, 242, 0);
+}
+.div_notifications{
+    width: 20%;
+    background-color: rgb(59, 31, 15);
+}
