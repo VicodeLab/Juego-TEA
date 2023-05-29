@@ -12,13 +12,19 @@ html {
     font-size: 62.5%;
 }
 
+
+/* MAIN */
+
 .container_sound{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     min-width: 35rem;
+    height: 75vh;
 }
+
+/* HEADER */
 
 .header_sound{
     display: flex;
@@ -28,31 +34,106 @@ html {
 }
 
 .btn_return{
-    width: 15%;
+    width: 10%;
     min-width: 2rem;
+    margin-left: 1.2rem;
 }
 
 .img_return{
-    width: 75%;
+    width: 100%;
 }
 
+/* TIULO */
 .title{
-    width: 100%;
+    width: 60%;
     background-color: rebeccapurple;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
+
+/* SONIDO GENEREAL */
 .div_general_sound{
-    width: 30%;
+    width: 70%;
+    display: flex;
     background-color: rgb(229, 14, 136);
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
+.level_logo_sound{
+    width: 30%;
+    
+}
+.img_sound{
+    width: 60%;
+}
+.slide_sound{
+    width: 70%;
+}
+
+/* SONIDO DE MUSICA */
 .div_music_sound{
-    width: 20%;
+    width: 70%;
+    display: flex;
     background-color: blue;
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
+.level_logo_music{
+    width: 30%;
+
+}
+.img_music{
+    width: 60%;
+}
+.slide_music{
+    width: 70%;
+}
+
+/* SONIDO DE VOZ */
+
 .div_voice_sound{
-    width: 20%;
+    width: 70%;
+    display: flex;
     background-color: rgb(255, 242, 0);
+    align-items: center;
+    text-align: center;
+    align-content: center;
 }
+.level_logo_voice{
+    width: 30%;
+
+}
+.img_voice{
+    width: 60%;
+}
+.slide_voice{
+    width: 70%;
+}
+
+/* NOTIFICACIONES */
+
 .div_notifications{
-    width: 20%;
+    width: 70%;
+    display: flex;
     background-color: rgb(59, 31, 15);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.notification_logo{
+    width: 30%;
+
+}
+.img_notification{
+    width: 60%;
+}
+.switch{
+    width: 70%;
+}
+
+@media(max-width: 720px){
+
 }
