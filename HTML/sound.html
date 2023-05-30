@@ -11,30 +11,36 @@
 </head>
 <body>
     <header class="header_sound">
-        <a class="btn_return" target="_self" href="#" title="regresar a la pantalla principal"> <img class="img_return"
+        <a class="btn_return" target="_self" href="/HTML/index.html" title="regresar a la pantalla principal"> <img class="img_return"
             src="/Multimedia/return.png"></a>
     </header>
     <main class="container_sound">
         <div class="title">
-            <h1>Configuraciones de sonido</h1>
+                <h1>Configuraciones de sonido</h1>
         </div>
 
         <div class="div_general_sound">
             <div class="level_logo_sound">
                 <img class="img_sound" src="/Multimedia/volume-level.png" alt="logo de sonido">
             </div>
-            <div class="slide_sound">
-                slide de volumen
-            </div>
 
+            <div class="middle">
+                <div class="slider-container">
+                    <span class="bar"><span class="fill"></span></span>
+                    <input id="slider" class="slider" type="range" min="0" max="100" value="50">
+                </div>
+            </div>
         </div>
 
         <div class="div_music_sound">
             <div class="level_logo_music">
                 <img class="img_music" src="/Multimedia/music_logo.png" alt="logo de musica">
             </div>
-            <div class="slide_music">
-                slide de volumen
+            <div class="middle">
+                <div class="slider-container">
+                    <span class="bar"><span class="fill"></span></span>
+                    <input id="slider" class="slider" type="range" min="0" max="100" value="50">
+                </div>
             </div>
 
         </div>
@@ -43,8 +49,11 @@
             <div class="level_logo_voice">
                 <img class="img_voice" src="/Multimedia/microphone.png" alt="logo de voz">
             </div>
-            <div class="slide_voice">
-                slide de volumen
+            <div class="middle">
+                <div class="slider-container">
+                    <span class="bar"><span class="fill"></span></span>
+                    <input id="slider" class="slider" type="range" min="0" max="100" value="50">
+                </div>
             </div>
 
         </div>
@@ -53,15 +62,16 @@
             <div class="notification_logo">
                 <img class="img_notification" src="/Multimedia/notification.png" alt="logo de notificación">
             </div>
-            <div class="switch">
-                switch de notifiacion
-
+            <div class="switch_container">
+                <input type="checkbox" id="switch">
+                <label for="switch" class="lbl"></label>
             </div>
 
         </div>
 
         
     </main>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/JS/index.js"></script>
 </body>
 </html>

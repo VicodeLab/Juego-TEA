@@ -5,11 +5,17 @@
 }
 
 body {
-    background-color: #00cc99;
+    background-color: #323c4c;
 }
 
 html {
     font-size: 62.5%;
+}
+
+h1{
+    color: aliceblue;
+    width: 100%;
+    font-size: 2rem;
 }
 
 
@@ -21,6 +27,7 @@ html {
     text-align: center;
     justify-content: center;
     min-width: 35rem;
+    min-height: 63.5rem;
     height: 75vh;
 }
 
@@ -31,62 +38,115 @@ html {
     margin-top: 2rem;
     min-width: 35rem;
     text-align: center;
+    width: 60%;
 }
 
 .btn_return{
-    width: 10%;
+    width: 11.6%;
     min-width: 2rem;
     margin-left: 1.2rem;
 }
 
 .img_return{
     width: 100%;
-}
+}       
 
 /* TIULO */
 .title{
     width: 60%;
-    background-color: rebeccapurple;
-    align-items: center;
+    display: flex;
     text-align: center;
     align-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 0.2rem solid blueviolet;
+    border-radius: 1rem;
 }
 
 /* SONIDO GENEREAL */
 .div_general_sound{
-    width: 70%;
+    width: 80%;
     display: flex;
-    background-color: rgb(229, 14, 136);
     align-items: center;
     text-align: center;
     align-content: center;
+    margin-bottom: 1rem;
 }
 .level_logo_sound{
     width: 30%;
     
 }
 .img_sound{
-    width: 60%;
+    width: 68%;
 }
-.slide_sound{
-    width: 70%;
+.middle {
+	width: 65%;
+    padding: 1rem;
+	max-width: 500px;
+}
+.slider-container {
+	position: relative;
+}
+.slider-container .bar {
+	position: absolute;
+	z-index: 1;
+	left: 2px;
+	top: 1px;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #52525c;
+	overflow: hidden;
+}
+.slider-container .bar .fill {
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: #358cff;
+}
+.slider-container .slider {
+	position: relative;
+	z-index: 2;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
+}
+.slider-container .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 19px;
+	height: 19px;
+	background-color: #358cff;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(98,0,238,.1);
+	transition: .3s ease-in-out;
+}
+.slider-container .slider::-webkit-slider-thumb:hover {
+	box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+}
+.slider-container .slider:active::-webkit-slider-thumb {
+	box-shadow: 0 0 0 40px rgba(98,0,238,.2);
 }
 
 /* SONIDO DE MUSICA */
 .div_music_sound{
-    width: 70%;
+    width: 80%;
     display: flex;
-    background-color: blue;
     align-items: center;
     text-align: center;
     align-content: center;
+    margin-bottom: 1rem;
 }
 .level_logo_music{
     width: 30%;
 
 }
 .img_music{
-    width: 60%;
+    width: 78%;
 }
 .slide_music{
     width: 70%;
@@ -95,19 +155,19 @@ html {
 /* SONIDO DE VOZ */
 
 .div_voice_sound{
-    width: 70%;
+    width: 80%;
     display: flex;
-    background-color: rgb(255, 242, 0);
     align-items: center;
     text-align: center;
     align-content: center;
+    margin-bottom: 1rem;
 }
 .level_logo_voice{
     width: 30%;
 
 }
 .img_voice{
-    width: 60%;
+    width: 75%;
 }
 .slide_voice{
     width: 70%;
@@ -116,24 +176,80 @@ html {
 /* NOTIFICACIONES */
 
 .div_notifications{
-    width: 70%;
+    width: 80%;
     display: flex;
-    background-color: rgb(59, 31, 15);
     align-items: center;
     text-align: center;
     align-content: center;
+    margin-bottom: 1rem;
 }
 .notification_logo{
     width: 30%;
 
 }
 .img_notification{
-    width: 60%;
-}
-.switch{
-    width: 70%;
+    width: 75%;
 }
 
-@media(max-width: 720px){
+.switch_container{
+    width: 70%;
+}
+.lbl{
+    display: inline-block;
+    width: 65px;
+    height: 33px;
+    background: #979797;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: .2s;
+  }
+   
+  .lbl::after{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #eee;
+    border-radius: 100px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: .2s;
+  }
+   
+  #switch:checked + .lbl::after{
+    left: 36px;
+  }
+   
+  #switch:checked + .lbl{
+    background: #358cff;
+  }
+   
+  #switch{
+    display: none;
+  }
+
+
+
+/* TABLETS */
+
+@media(min-width: 426px){
+    .img_sound, .img_music,
+    .img_voice, .img_notification{
+        width: 45%;
+    }
+
+    .btn_return{
+        margin-left: 3rem;
+    }
+
+    .header_sound{
+        margin-top: 2.5rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
 
 }
