@@ -152,6 +152,51 @@ h1{
     width: 70%;
 }
 
+.slider-container .bar_music {
+	position: absolute;
+	z-index: 1;
+	left: 2px;
+	top: 1px;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #52525c;
+	overflow: hidden;
+}
+.slider-container .bar_music .fill_music {
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: #358cff;
+}
+.slider-container .slider_music {
+	position: relative;
+	z-index: 2;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
+}
+.slider-container .slider_music::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 19px;
+	height: 19px;
+	background-color: #358cff;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(98,0,238,.1);
+	transition: .3s ease-in-out;
+}
+.slider-container .slider_music::-webkit-slider-thumb:hover {
+	box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+}
+.slider-container .slider_music:active::-webkit-slider-thumb {
+	box-shadow: 0 0 0 40px rgba(98,0,238,.2);
+}
+
 /* SONIDO DE VOZ */
 
 .div_voice_sound{
@@ -169,8 +214,50 @@ h1{
 .img_voice{
     width: 75%;
 }
-.slide_voice{
-    width: 70%;
+
+.slider-container .bar_voice {
+	position: absolute;
+	z-index: 1;
+	left: 2px;
+	top: 1px;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #52525c;
+	overflow: hidden;
+}
+.slider-container .bar_voice .fill_voice {
+	display: block;
+	width: 0;
+	height: 100%;
+	background-color: #358cff;
+}
+.slider-container .slider_voice {
+	position: relative;
+	z-index: 2;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 10px;
+	border-radius: 5px;
+	outline: none;
+	background-color: transparent;
+}
+.slider-container .slider_voice::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 19px;
+	height: 19px;
+	background-color: #358cff;
+	border-radius: 50%;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 0 0 0 0 rgba(98,0,238,.1);
+	transition: .3s ease-in-out;
+}
+.slider-container .slider_voice::-webkit-slider-thumb:hover {
+	box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+}
+.slider-container .slider_voice:active::-webkit-slider-thumb {
+	box-shadow: 0 0 0 40px rgba(98,0,238,.2);
 }
 
 /* NOTIFICACIONES */

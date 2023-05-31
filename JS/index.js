@@ -1,8 +1,27 @@
 
-// FUNCION PARA SLIDER DE VOLUMEN
-
-var $slider = $("#slider");
+// FUNCIONES PARA SLIDERS DE VOLUMEN
 var $fill = $(".bar .fill");
+var $fill_voice = $(".bar_voice .fill_voice");
+var $fill_music = $(".bar_music .fill_music");
+var $slider = $("#slider");
+var $slider_voice = $("#slider_voice");
+var $slider_music = $("#slider_music");
+
+function setBar_voice(){
+  $fill_voice.css("width", $slider_voice.val() + "%");
+}
+
+$slider_voice.on("input", setBar_voice);
+
+setBar_voice();
+
+function setBar_music(){
+  $fill_music.css("width", $slider_music.val() + "%");
+}
+
+$slider_music.on("input", setBar_music);
+
+setBar_music();
 
 function setBar() {
 	$fill.css("width", $slider.val() + "%");
