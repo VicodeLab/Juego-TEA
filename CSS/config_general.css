@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #323c4c;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    color: aliceblue;
+    width: 100%;
+    font-size: 2rem;
+}
+
+main{
+    min-height: 60rem;
+}
+/* MAIN */
+
+.container_config {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* HEADER */
+
+.header_config {
+    display: flex;
+    margin-top: 2.1rem;
+    min-width: 35rem;
+    text-align: center;
+    width: 65%;
+}
+
+.btn_return {
+    width: 12%;
+    min-width: 2rem;
+    margin-left: 1.2rem;
+}
+
+.img_return {
+    width: 100%;
+}
+
+/* TIULO */
+
+.title {
+    width: 70%;
+    padding: 1.2rem;
+    border: 0.2rem solid blueviolet;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+/* PERFIL */
+
+.div_pefil{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: start;
+    text-align: start;
+}
+
+/* ESTADISTICAS */
+.div_estadistic{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: start;
+    text-align: start;
+}
+
+/* SUGERENCIAS */
+
+.div_sugerencias{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: start;
+    text-align: start;
+}
+
+/* BOTONES PERF, ESTA, SUGE */
+
+.btn{
+    width: 100%;
+    min-width: 22rem;
+    background-color: #323c4c;
+    padding: 1rem 0rem 1rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-size: 1.9rem;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+/* TABLETS */
+
+@media(min-width: 426px){
+
+    .btn{
+        font-size: 3rem;
+    }
+
+    h1{
+        font-size: 3.1rem;
+    }
+
+}
+
+

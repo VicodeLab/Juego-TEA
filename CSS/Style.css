@@ -14,7 +14,7 @@
 
         h2 {
             width: 80%;
-            font-size: 1.7rem;
+            font-size: 2.4rem;
             color: #333;
             min-width: 35rem;
         }
@@ -155,7 +155,15 @@
             width: 30%;
         }
 
+        /* PARA CELULARES */
         @media(max-width: 426px){
+
+            h2 {
+                width: 80%;
+                font-size: 1.7rem;
+                color: #333;
+                min-width: 35rem;
+            }
 
             .btn_confi,
             .btn_sound,
