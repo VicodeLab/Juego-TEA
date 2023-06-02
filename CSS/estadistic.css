@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #323c4c;
+}
+
+h1 {
+    color: aliceblue;
+    width: 100%;
+    font-size: 2rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* MAIN */
+
+.container_estadistic {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container_grafica{
+    width: 80%;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    min-width: 35rem;
+    min-height: 40rem;
+}
+
+/* HEADER */
+
+.header_estadistic {
+    display: flex;
+    margin-top: 2.1rem;
+    min-width: 35rem;
+    text-align: center;
+    width: 65%;
+}
+
+.btn_return {
+    width: 12%;
+    min-width: 2rem;
+    margin-left: 1.2rem;
+}
+
+.img_return {
+    width: 100%;
+}
+/* TIULO */
+
+.title {
+    width: 70%;
+    padding: 1.2rem;
+    border: 0.2rem solid blueviolet;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+#myChart{
+    width: 30%;
+
+}
