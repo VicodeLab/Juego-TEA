@@ -70,18 +70,34 @@
             border: 0.2rem solid blueviolet;
             border-radius: 1rem;
             display: flex;
+            flex-wrap: wrap;
             text-align: center;
             align-content: center;
             align-items: center;
 
         }
 
+        .label_id{
+            width: 100%;
+            display: flex;
+            padding: 1rem;
+            align-items: baseline;
+
+        }
         .label_name {
             width: 100%;
             display: flex;
-            padding: 1.2rem;
+            padding: 1rem;
             align-items: baseline;
         }
+
+        .input-id{
+            width: 100%;
+            font-size: 2rem;
+            margin-left: 0.5rem;
+
+        }
+
 
         .input-name {
             width: 100%;
