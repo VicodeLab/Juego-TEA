@@ -6,36 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pantalla de bienvenida" />
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" href="/CSS/Style.css">
-    <title>Principal</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>Home</title>
 </head>
 <body>
 
-    <header class="header">
-
-        <h2>Welcome y Bienvenidos!</h2>
-        <p id="counter"></p>
-
-    </header>
-
+    <p id="counter"></p>
     <main class="container" >
         <div class="div_logo">
-               <img class="img_logo" src="/Multimedia/Logo_kids.png" alt="Logo kids principal ">
+               <img class="img_logo" src="/Multimedia/bienvenidos.png" alt="Logo kids principal ">
         </div>
-        <form action="" class="div_label">
-                <label class="label_name" for="nombre">
-                    <span>Nombre:</span>
-                    <input type="text" class="input-name" name="nombre" placeholder="Nombre de usuario..." autocomplete="name" required>         
-                </label>
-                <label class="label_id" for="ID">
-                    <span>Id:</span>
-                    <input type="text" class="input-id" name="id" placeholder="identificación..." autocomplete="id" required>
-                    
-                </label>
-        </form>
         <div class="container_btn">
-            <a class="btn btn-pause" href="#">Entrenar</a>
-            <a class="btn btn-play" href="#">Jugar</a>
+            <a class="btn btn-pause" href="/HTML/register.html">Crear usuario</a>
+            <a class="btn btn-play" href="/HTML/login.html">Ingresar</a>
         </div>
 
         <a class="btn_confi" target="_self" href="/HTML/config.html" title="Ir a Configuraciones"> <img class="img_confi"

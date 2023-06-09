@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #00cc99;
+    background-color: #ffdddd;
 }
 
 html {
@@ -50,7 +50,7 @@ html {
     /* LOGO */
 
     .div_logo {
-        width: 60%;
+        width: 80%;
         height: 53%;
         min-width: 35rem;
     }

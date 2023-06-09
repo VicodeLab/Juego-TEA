@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pantalla de bienvenida" />
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" href="/CSS/home.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <title>Login</title>
 </head>
 <body>
-
     <header class="header">
 
-        <h2>Bienvenidos vamos a la aventura!</h2>
+        <a class="btn_return" target="_self" href="/HTML/index.html" title="regresar a la pantalla principal"> <img
+            class="img_return" src="/Multimedia/return.png"></a>
+        <h2>Te damos la bienvenida!</h2>
         <p id="counter"></p>
 
     </header>
@@ -22,9 +23,20 @@
         <div class="div_logo">
                <img class="img_logo" src="/Multimedia/Logo_kids.png" alt="Logo kids principal ">
         </div>
+        <form action="" class="div_label">
+                <label class="label_name" for="nombre">
+                    <span>Nombre:</span>
+                    <input type="text" class="input-name" name="nombre" placeholder="Nombre de usuario..." autocomplete="name" required>         
+                </label>
+                <label class="label_id" for="ID">
+                    <span>Id:</span>
+                    <input type="text" class="input-id" name="id" placeholder="identificación..." autocomplete="id" required>
+                    
+                </label>
+        </form>
         <div class="container_btn">
-            <a class="btn btn-pause" href="/HTML/register.html">Register</a>
-            <a class="btn btn-play" href="/HTML/index.html">Login</a>
+            <a class="btn btn-pause" href="#">Entrenar</a>
+            <a class="btn btn-play" href="#">Jugar</a>
         </div>
 
         <a class="btn_confi" target="_self" href="/HTML/config.html" title="Ir a Configuraciones"> <img class="img_confi"
