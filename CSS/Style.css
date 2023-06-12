@@ -13,9 +13,10 @@
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
         color: #333;
-        min-width: 35rem;
+        min-width: 29rem;
+        width: 60%;
     }
 
     span {
@@ -41,10 +42,10 @@
     .header {
         display: flex;
         margin-top: 3rem;
-        min-width: 35rem;
+        min-width: 20rem;
         text-align: center;
         align-items: center;
-        justify-content: center;
+        align-content: center;
     }
 
     /* .header_config {
@@ -56,10 +57,10 @@
         } */
 
     .btn_return {
-        width: 30%;
-        min-width: 2rem;
-        padding-left: 0.5rem;
-        
+        width: 40%;
+        min-width: 3.5rem;
+        max-width: 4rem;
+        margin-left: 1rem;
     }
 
     .img_return {
@@ -71,7 +72,7 @@
 
     .div_logo {
         width: 60%;
-        height: 50%;
+        height: 55%;
         min-width: 35rem;
     }
 
@@ -94,6 +95,7 @@
         text-align: center;
         align-content: center;
         align-items: center;
+        justify-content: center;
         margin-bottom: 2rem;
 
     }
@@ -115,7 +117,7 @@
 
     .input-id {
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-left: 0.5rem;
 
     }
@@ -123,7 +125,7 @@
 
     .input-name {
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin-left: 0.5rem;
     }
 
@@ -195,27 +197,55 @@
         width: 30%;
     }
 
-    /* PARA CELULARES */
-    @media(max-width: 426px) {
 
-        h2 {
+    /* PARA TABLETS */
+    @media(min-width: 426px){
+
+        h2{
+            font-size: 3rem;
+        }
+        span{
+            font-size: 2.5rem;
+        }
+
+        .btn_return{
+            width: 19%;
+            max-width: 90rem;
+        }
+
+        .img_return {
+            width: 40%;
+        }
+
+        .label_id {
             width: 80%;
-            font-size: 1.7rem;
-            color: #333;
-            min-width: 35rem;
+            display: flex;
+            padding: 1rem;
+            align-items: baseline;
+    
+        }
+    
+        .label_name {
+            width: 80%;
+            display: flex;
+            padding: 1rem;
+            align-items: baseline;
         }
 
-        .btn_confi,
-        .btn_sound,
-        .btn_exit {
-            padding-top: 4rem;
-            padding-bottom: 1.5rem;
+        .input-id {
+            width: 90%;
+            font-size: 2.3rem;
+            margin-left: 0.5rem;
+    
+        }
+        .input-name {
+            width: 90%;
+            font-size: 2.3rem;
+            margin-left: 0.5rem;
         }
 
-        .img_confi,
-        .img_sound,
-        .img_exit {
-            width: 60%;
+        .btn{
+            font-size: 2.3rem;
         }
-
+        
     }

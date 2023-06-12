@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00cc99;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    color: black;
+    width: 100%;
+    font-size: 2rem;
+}
+
+main{
+    min-height: 60rem;
+}
+
+span {
+    width: 100%;
+    text-align: left;
+    padding-left: 0.45rem;
+    font-size: 1.8rem;
+}
+/* MAIN */
+
+.container_register {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* HEADER */
+
+.header_config {
+    display: flex;
+    margin-top: 2.1rem;
+    min-width: 35rem;
+    text-align: center;
+    width: 65%;
+}
+
+.btn_return {
+    width: 10.5%;
+    min-width: 2rem;
+    margin-left: 1.2rem;
+}
+
+.img_return {
+    width: 100%;
+}
+
+/* TIULO */
+
+.title {
+    width: 70%;
+    padding: 1.2rem;
+    border: 0.2rem solid blueviolet;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+/* FORM */
+
+.form {
+    width: 80%;
+    padding: 1rem 0 1rem 0;
+    border: 0.2rem solid blueviolet;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+/* LABELS */
+
+.label_name {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: baseline;
+}
+
+.label_edad{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: baseline;
+
+}
+
+.label_genero {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: baseline;
+
+}
+
+.span-gener{
+    margin-bottom: 0.5rem;
+}
+
+.span-genero{
+    width: 40%;
+}
+
+.fem{
+    margin-left: 1rem;
+}
+
+.label_id {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: baseline;
+
+}
+
+/* INPUNTS */
+
+.input-name {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.input-id {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.input-edad{
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+
+/* BOTONES PERF, ESTA, SUGE */
+.div_final {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_register {
+    width: 50%;
+    min-width: 10rem;
+    background-color: #333;
+    padding: 1rem 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-size: 1.7rem;
+}
+
+
+
+/* TABLETS */
+
+@media(min-width: 426px){
+
+    span {
+        width: 100%;
+        text-align: left;
+        padding-left: 0.45rem;
+        font-size: 2.7rem;
+    }
+
+    h1{
+        font-size: 3.1rem;
+    }
+
+    .label_genero {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        align-items: baseline;
+    
+    }
+    .span-genero{
+        width: 40%;
+        margin-bottom: 0.5rem;
+    }
+    .input-check_fem{
+        width: 30%;
+    }
+    .input-check_male{
+        width: 30%;
+        margin-bottom: 0.5rem;
+    }
+    .fem{
+        margin-left: 0rem;
+    }
+
+    .btn_register{
+        font-size: 2.3rem;
+    }
+
+    .input{
+        font-size: 2.5rem;
+    }
+
+
+
+}
