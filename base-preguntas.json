@@ -1,0 +1,52 @@
+[
+    {
+        "categoria": "Necesidades",
+        "pregunta": "¿Qué quiere expresar la niña?",
+        "respuesta": "Le duele la cabeza",
+        "incorrecta1": "Tiene ganas de ir al baño",
+        "incorrecta2": "Tiene hambre",
+        "incorrecta3": "Quiere dormir",
+        "imagen": "https://i.ibb.co/K5KGSw1/primer-plano-nina-sentada-cama-que-tiene-dolor-severo-dolor-cabeza.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Necesidades",
+        "pregunta": "¿Que tiene el niño?",
+        "respuesta": "Tiene hambre",
+        "incorrecta1": "Le duele la cabeza",
+        "incorrecta2": "Quiere ir al baño",
+        "incorrecta3": "Tiene ganas de jugar",
+        "imagen": "https://i.ibb.co/Z6RCwzN/Hambre.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Necesidades",
+        "pregunta": "¿Qué necesidad se ve aquí?",
+        "respuesta": "Ganas de ir al baño",
+        "incorrecta1": "Comer",
+        "incorrecta2": "Descansar",
+        "incorrecta3": "Jugar",
+        "imagen": "https://i.ibb.co/K2sdfsj/Ir-al-ba-o.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Necesidades",
+        "pregunta": "¿Qué le ocurre a la niña?",
+        "respuesta": "Le duele el estomago",
+        "incorrecta1": "Tiene sueño",
+        "incorrecta2": "Quiere ver TV",
+        "incorrecta3": "Le duele la cabeza",
+        "imagen": "https://i.ibb.co/Gdc4V4X/Dolor-estomago.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Necesidades",
+        "pregunta": "¿Qué necesidad se ve aquí?",
+        "respuesta": "Sueño",
+        "incorrecta1": "Hambre",
+        "incorrecta2": "Ganas de jugar",
+        "incorrecta3": "Quiere afecto",
+        "imagen": "https://i.ibb.co/8KpXLHR/polar-bear.gif",
+        "objectFit": "contain"
+    }
+]
