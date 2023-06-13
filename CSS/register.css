@@ -142,18 +142,34 @@ span {
     width: 100%;
     font-size: 2rem;
     margin-left: 0.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
 }
 
 .input-id {
     width: 100%;
     font-size: 2rem;
     margin-left: 0.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
 }
 
 .input-edad{
     width: 100%;
     font-size: 2rem;
     margin-left: 0.5rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.input-check_fem{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.input-check_male{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 
@@ -209,14 +225,16 @@ span {
         margin-bottom: 0.5rem;
     }
     .input-check_fem{
-        width: 30%;
+        width: 2rem;
+        height: 2rem;
     }
     .input-check_male{
-        width: 30%;
+        width: 2rem;
+        height: 2rem;
         margin-bottom: 0.5rem;
     }
     .fem{
-        margin-left: 0rem;
+        margin-left: 4.2rem;
     }
 
     .btn_register{

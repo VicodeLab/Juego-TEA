@@ -42,10 +42,10 @@
     {
         "categoria": "Necesidades",
         "pregunta": "¿Qué necesidad se ve aquí?",
-        "respuesta": "Sueño",
-        "incorrecta1": "Hambre",
+        "respuesta": "Dormir",
+        "incorrecta1": "Comer",
         "incorrecta2": "Ganas de jugar",
-        "incorrecta3": "Quiere afecto",
+        "incorrecta3": "Afecto",
         "imagen": "https://i.ibb.co/8KpXLHR/polar-bear.gif",
         "objectFit": "contain"
     }
