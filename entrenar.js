@@ -73,8 +73,8 @@ function escogerPregunta(n) {
   desordenarRespuestas(pregunta);
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
-    style("imagen").height = "200px";
-    style("imagen").width = "100%";
+    style("imagen").height = "80%";
+    style("imagen").width = "90%";
   } else {
     style("imagen").height = "0px";
     style("imagen").width = "0px";
@@ -121,7 +121,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 3000);
+  }, 2500);
 }
 
 // let p = prompt("numero")
