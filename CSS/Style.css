@@ -199,16 +199,17 @@
 
 
     /* PARA TABLETS */
-    @media(min-width: 426px){
+    @media(min-width: 426px) {
 
-        h2{
+        h2 {
             font-size: 3rem;
         }
-        span{
+
+        span {
             font-size: 2.5rem;
         }
 
-        .btn_return{
+        .btn_return {
             width: 19%;
             max-width: 90rem;
         }
@@ -222,9 +223,9 @@
             display: flex;
             padding: 1rem;
             align-items: baseline;
-    
+
         }
-    
+
         .label_name {
             width: 80%;
             display: flex;
@@ -236,16 +237,17 @@
             width: 90%;
             font-size: 2.3rem;
             margin-left: 0.5rem;
-    
+
         }
+
         .input-name {
             width: 90%;
             font-size: 2.3rem;
             margin-left: 0.5rem;
         }
 
-        .btn{
+        .btn {
             font-size: 2.3rem;
         }
-        
+
     }

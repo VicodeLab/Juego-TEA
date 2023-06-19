@@ -18,7 +18,7 @@ h1 {
     font-size: 2rem;
 }
 
-main{
+main {
     min-height: 60rem;
 }
 
@@ -28,6 +28,7 @@ span {
     padding-left: 0.45rem;
     font-size: 1.8rem;
 }
+
 /* MAIN */
 
 .container_register {
@@ -84,7 +85,7 @@ span {
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-    
+
 }
 
 /* LABELS */
@@ -97,7 +98,7 @@ span {
     align-items: baseline;
 }
 
-.label_edad{
+.label_edad {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -115,15 +116,15 @@ span {
 
 }
 
-.span-gener{
+.span-gener {
     margin-bottom: 0.5rem;
 }
 
-.span-genero{
+.span-genero {
     width: 40%;
 }
 
-.fem{
+.fem {
     margin-left: 1rem;
 }
 
@@ -154,7 +155,7 @@ span {
     padding: 0.5rem;
 }
 
-.input-edad{
+.input-edad {
     width: 100%;
     font-size: 2rem;
     margin-left: 0.5rem;
@@ -162,12 +163,12 @@ span {
     padding: 0.5rem;
 }
 
-.input-check_fem{
+.input-check_fem {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.input-check_male{
+.input-check_male {
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -199,7 +200,7 @@ span {
 
 /* TABLETS */
 
-@media(min-width: 426px){
+@media(min-width: 426px) {
 
     span {
         width: 100%;
@@ -208,7 +209,7 @@ span {
         font-size: 2.7rem;
     }
 
-    h1{
+    h1 {
         font-size: 3.1rem;
     }
 
@@ -218,30 +219,34 @@ span {
         flex-wrap: wrap;
         padding: 1rem;
         align-items: baseline;
-    
+
     }
-    .span-genero{
+
+    .span-genero {
         width: 40%;
         margin-bottom: 0.5rem;
     }
-    .input-check_fem{
+
+    .input-check_fem {
         width: 2rem;
         height: 2rem;
     }
-    .input-check_male{
+
+    .input-check_male {
         width: 2rem;
         height: 2rem;
         margin-bottom: 0.5rem;
     }
-    .fem{
+
+    .fem {
         margin-left: 4.2rem;
     }
 
-    .btn_register{
+    .btn_register {
         font-size: 2.3rem;
     }
 
-    .input{
+    .input {
         font-size: 2.5rem;
     }
 

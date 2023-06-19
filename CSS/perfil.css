@@ -21,7 +21,7 @@ html {
     font-size: 62.5%;
 }
 
-.container_estadistic {
+.container_perfil {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@ html {
     margin-bottom: 20px;
 }
 
-.header_estadistic {
+.header_perfil {
     display: flex;
     margin-top: 2.1rem;
     min-width: 35rem;
@@ -72,51 +72,23 @@ html {
     margin-top: 1.5rem;
 }
 
-#myChart {
-    width: 30%;
-}
-
-.table-container {
-    margin-top: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table th,
-table td {
+.perfil_item {
+    margin-bottom: 20px;
+    border: 2px solid #ffcccc;
+    border-radius: 10px;
     padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-table th {
-    background-color: #800080; /* Color morado */
-    color: #fff; /* Texto en blanco */
+.perfil_item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }
 
-table td:last-child {
-    width: 30%;
-}
-
-table tr:nth-child(even) {
-    background-color: #f9d7e3; /* Color de fila par */
-}
-
-table tr:nth-child(odd) {
-    background-color: #f6b1d2; /* Color de fila impar */
-}
-
-@media (max-width: 350px) {
-    .container_grafica h1 {
-        font-size: 16px;
-    }
-
-    table th,
-    table td {
-        padding: 8px;
-    }
+.perfil_item p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #666;
 }

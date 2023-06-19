@@ -3,8 +3,9 @@ let mostrar_pantalla_juego_términado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = true;
 
 window.onload = function () {
-  base_preguntas = readText("base-preguntas.json");
-  interprete_bp = JSON.parse(base_preguntas);
+  jugar_preguntas = readText("jugar-preguntas.json");
+  interprete_bp = JSON.parse(jugar_preguntas);
+  console.log(interprete_bp[0]);
   escogerPreguntaAleatoria();
 };
 
@@ -14,7 +15,7 @@ btn_correspondiente = [
   select_id("btn1"),
   select_id("btn2"),
   select_id("btn3"),
-  select_id("btn4")
+  //select_id("btn4")
 ];
 let npreguntas = [];
 
@@ -73,8 +74,8 @@ function escogerPregunta(n) {
   desordenarRespuestas(pregunta);
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
-    style("imagen").height = "80%";
-    style("imagen").width = "90%";
+    style("imagen").height = "200px";
+    style("imagen").width = "100%";
   } else {
     style("imagen").height = "0px";
     style("imagen").width = "0px";
@@ -89,14 +90,14 @@ function desordenarRespuestas(pregunta) {
     pregunta.respuesta,
     pregunta.incorrecta1,
     pregunta.incorrecta2,
-    pregunta.incorrecta3,
+    
   ];
   posibles_respuestas.sort(() => Math.random() - 0.5);
 
   select_id("btn1").innerHTML = posibles_respuestas[0];
   select_id("btn2").innerHTML = posibles_respuestas[1];
   select_id("btn3").innerHTML = posibles_respuestas[2];
-  select_id("btn4").innerHTML = posibles_respuestas[3];
+  //select_id("btn4").innerHTML = posibles_respuestas[3];
 }
 
 let suspender_botones = false;
@@ -121,7 +122,7 @@ function oprimir_btn(i) {
   setTimeout(() => {
     reiniciar();
     suspender_botones = false;
-  }, 2500);
+  }, 3000);
 }
 
 // let p = prompt("numero")
