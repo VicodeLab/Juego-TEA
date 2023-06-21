@@ -6,9 +6,10 @@
         "incorrecta1": "Tiene ganas de ir al baño",
         "incorrecta2": "Tiene hambre",
         "incorrecta3": "Quiere dormir",
-        "imagen": "https://i.ibb.co/K5KGSw1/primer-plano-nina-sentada-cama-que-tiene-dolor-severo-dolor-cabeza.jpg",
+        "imagen": "/Multimedia/Dolor_cabeza.jpg",
         "objectFit": "contain"
     },
+
     {
         "categoria": "Necesidades",
         "pregunta": "¿Que tiene el niño?",
@@ -16,7 +17,7 @@
         "incorrecta1": "Le duele la cabeza",
         "incorrecta2": "Quiere ir al baño",
         "incorrecta3": "Tiene ganas de jugar",
-        "imagen": "https://i.ibb.co/Z6RCwzN/Hambre.jpg",
+        "imagen": "/Multimedia/Hambre.jpg",
         "objectFit": "contain"
     },
     {
@@ -26,7 +27,7 @@
         "incorrecta1": "Comer",
         "incorrecta2": "Descansar",
         "incorrecta3": "Jugar",
-        "imagen": "https://i.ibb.co/K2sdfsj/Ir-al-ba-o.jpg",
+        "imagen": "/Multimedia/Ir_al_baño.jpg",
         "objectFit": "contain"
     },
     {
@@ -36,7 +37,7 @@
         "incorrecta1": "Tiene sueño",
         "incorrecta2": "Quiere ver TV",
         "incorrecta3": "Le duele la cabeza",
-        "imagen": "https://i.ibb.co/Gdc4V4X/Dolor-estomago.jpg",
+        "imagen": "/Multimedia/Dolor_estomago.jpg",
         "objectFit": "contain"
     },
     {
@@ -46,7 +47,7 @@
         "incorrecta1": "Comer",
         "incorrecta2": "Ganas de jugar",
         "incorrecta3": "Afecto",
-        "imagen": "https://i.ibb.co/8KpXLHR/polar-bear.gif",
+        "imagen": "/Multimedia/polar-bear.gif",
         "objectFit": "contain"
     }
 ]

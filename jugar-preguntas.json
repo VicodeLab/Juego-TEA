@@ -6,51 +6,6 @@
     "incorrecta2": "Seguir jugando e ignorar el hambre.",
     "imagen": "./Multimedia/Logo_kids.png",
     "objectFit": "contain"
-},
-{
-    "categoria": "Necesidades",
-    "pregunta": "El día de hoy es nublado y no hace calor, pepe se encuentra algo desanimado y mareado. ¿Qué debería hacer pepe",
-    "respuesta": " Acercarse a mamá y decir: “Mamá, duele” mientras se señala la cabeza",
-    "incorrecta1": "Ir al bolso de mamá y tomar una pastilla.",
-    "incorrecta2": "Ir donde mamá y decir: “Mamá, tengo hambre",
-    "imagen": "./Multimedia/Logo_kids.png",
-    "objectFit": "contain" 
-},
-{
-"categoria": "Necesidades",
-"pregunta": "Pronto se hará de noche y los padres de Pepe están trabajando. En casa se encuentra la niñera/tutor el cual se encuentra preparando una merienda, pero Pepe está ya algo cansado y disgustado. ¿Qué debería hacer Pepe?",
-"respuesta": "Llamar a mamá y decir: “Mamá, tengo sueño”",
-"incorrecta1": "Ir a la cama y dormir.",
-"incorrecta2": "Ir al sofá y dormir.",
-"imagen": "./Multimedia/Logo_kids.png",
-    "objectFit": "contain"
-},
-{
-"categoria": "Necesidades",
-"pregunta": "Pepe ha salido con sus padres a dar una vuelta por un centro comercial para divertirse jugando, en estos momentos Pepe le ruje el estómago dado que no ha comido. ¿Qué debería hacer Pepe?",
-"respuesta": "Decirle a papá o mamá que quiere comida.",
-"incorrecta1": "Pedir a sus padres que regresen a casa.",
-"incorrecta2": "Llorar señalando un puesto de comida ambulante.",
-"imagen": "./Multimedia/Logo_kids.png",
-"objectFit": "contain"
-},
-{
-    "categoria": "Necesidades",
-    "pregunta": "Luego de salir del cine con la familia Pepe se encuentra algo mareado y disgustado, ¿Qué debería hacer Pepe?",
-    "respuesta": "Acercarse a mamá y decir: “Mamá, duele” mientras se señala la cabeza.",
-    "incorrecta1": "Hacer un berrinche.",
-    "incorrecta2": "Tomar el bolso de mamá y sacar una pastilla.",
-    "imagen": "./Multimedia/Logo_kids.png",
-    "objectFit": "contain"
-},
-{
-    "categoria": "Necesidades",
-    "pregunta": "Niño con TEA con sueño en la calle: Hoy Pepe salió con papá y unos amiguitos a jugar en el parque, luego de un rato jugando, Pepe se siente cansado y con necesidad de descansar, ¿Qué debería hacer Pepe?",
-    "respuesta": "Acercarse a papá y decirle que quiere ir a casa.",
-    "incorrecta1": "Recostarse en el suelo y dormir.",
-    "incorrecta2": "Llamar a papá y decir: “papá, tengo sueño”.",
-    "imagen": "./Multimedia/Logo_kids.png",
-    "objectFit": "contain"
 }
 
 ]

@@ -49,7 +49,7 @@
                 echo "<script>alert('Usuario no registrado. Por favor, regístrate primero.');</script>";
             } else {
                 if (isset($_POST['submit_entrenar'])) {
-                    header("Location: /Jugar_entrenar/entrenar.php?nombre=" . urlencode($nombre) . "&id=" . urlencode($id));
+                    header("Location: /Juego_Entrenar/entrenar.php?nombre=" . urlencode($nombre) . "&id=" . urlencode($id));
                 } elseif (isset($_POST['submit_jugar'])) {
                     header("Location: /Juego/jugar.php?nombre=" . urlencode($nombre) . "&id=" . urlencode($id));
                 }

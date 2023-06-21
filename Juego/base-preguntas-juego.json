@@ -1,0 +1,64 @@
+[
+
+    {
+        "categoria": "Necesidades",
+        "pregunta": "Pronto será la hora de comer, pepe está en la sala jugano pero con algo de hambre.¿Qué debería hacer Pepe?",
+        "respuesta": "Ir donde mamá y decir: “Mamá, tengo hambre”.",
+        "incorrecta1": "Ir a la cocina a prepararse algo.",
+        "incorrecta2": "Seguir jugando e ignorar el hambre.",
+        "incorrecta3": "LLorar sin parar.",
+        "imagen": "/Multimedia/Tengo_hambre_mama.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Necesidades",
+        "pregunta": "El día de hoy es nublado y no hace calor, pepe se encuentra algo desanimado y mareado. ¿Qué debería hacer pepe",
+        "respuesta": " Acercarse a mamá y decir: “Mamá, duele” mientras se señala la cabeza",
+        "incorrecta1": "Ir al bolso de mamá y tomar una pastilla.",
+        "incorrecta2": "Ir donde mamá y decir: “Mamá, tengo hambre",
+        "incorrecta3": "LLorar sin parar.",
+        "imagen": "/Multimedia/dolor_cabeza_escenario2.jpg",
+        "objectFit": "contain" 
+    },
+    {
+    "categoria": "Necesidades",
+    "pregunta": "Pronto se hará de noche y la mamá de pepe se encuentra preparando una merienda, pero Pepe se encuentra algo cansado y disgustado. ¿Qué debería hacer Pepe?",
+    "respuesta": "Llamar a mamá y decir: “Mamá, tengo sueño”",
+    "incorrecta1": "Ir a la cama y dormir.",
+    "incorrecta2": "Ir al sofá y dormir.",
+    "incorrecta3": "LLorar sin parar.",
+    "imagen": "/Multimedia/mami_tengo_sueño.jpg",
+        "objectFit": "contain"
+    },
+    {
+    "categoria": "Necesidades",
+    "pregunta": "Pepe ha salido con sus padres a dar pasear por el parque, a Pepe le ruje el estómago dado que no ha comido. ¿Qué debería hacer Pepe?",
+    "respuesta": "Decirle a papá o mamá que quiere comida.",
+    "incorrecta1": "Pedir a sus padres que regresen a casa.",
+    "incorrecta2": "Llorar señalando un puesto de comida ambulante.",
+    "incorrecta3": "LLorar sin parar.",
+    "imagen": "/Multimedia/Hambre_escenario3.png",
+    "objectFit": "contain"
+    },
+    {
+        "categoria": "Emociones",
+        "pregunta": "Hay una tormenta afuera y se escuchan truenos fuertes, pepe grita y salta por el ruido producido, ¿Qué está sintiendo pepe?",
+        "respuesta": "Pepe está sintiendo miedo.",
+        "incorrecta1": "Tiene hambre.",
+        "incorrecta2": "Dolor de cabeza",
+        "incorrecta3": "Está cansado.",
+        "imagen": "/Multimedia/miedo.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Emociones",
+        "pregunta": "A pepe lo molestan en el colegio, burlandose de él y molestandolo, ¿Cómo se siente Pepe?",
+        "respuesta": "Pepe se siente triste",
+        "incorrecta1": "Pepe está contento.",
+        "incorrecta2": "Pepe quiere salir a jugar.",
+        "incorrecta3": "A pepe no le importa.",
+        "imagen": "/Multimedia/Tristeza.jpg",
+        "objectFit": "contain"
+    }
+        
+]

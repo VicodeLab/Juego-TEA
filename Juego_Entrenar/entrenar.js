@@ -3,7 +3,7 @@ let mostrar_pantalla_juego_terminado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = false;
 
 window.onload = function () {
-  base_preguntas = readText("base-preguntas.json");
+  base_preguntas = readText("base-preguntas-entrenar.json");
   interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 

@@ -3,7 +3,7 @@ let mostrar_pantalla_juego_terminado = true;
 let reiniciar_puntos_al_reiniciar_el_juego = false;
 
 window.onload = function () {
-  base_preguntas = readText("base-preguntas.json");
+  base_preguntas = readText("base-preguntas-juego.json");
   interprete_bp = JSON.parse(base_preguntas);
   escogerPreguntaAleatoria();
 
@@ -82,7 +82,7 @@ function escogerPregunta(n) {
   desordenarRespuestas(pregunta);
   if (pregunta.imagen) {
     select_id("imagen").setAttribute("src", pregunta.imagen);
-    style("imagen").height = "80%";
+    style("imagen").height = "70%";
     style("imagen").width = "90%";
   } else {
     style("imagen").height = "0px";
